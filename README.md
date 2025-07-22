@@ -26,15 +26,15 @@ composer install
 
 ### 3. Environment Setup
 - Copy `.env.example` to `.env`:
-  ```
-  cp .env.example .env
-  ```
+```
+cp .env.example .env
+```
 - Set your database connection in `.env` (SQLite recommended for quick start):
-  ```
-  DB_CONNECTION=sqlite
-  DB_DATABASE=absolute/path/to/database.sqlite
-  ```
-  Or use MySQL if preferred.
+```
+DB_CONNECTION=sqlite
+DB_DATABASE=absolute/path/to/database.sqlite
+```
+Or use MySQL if preferred.
 
 ### 4. Generate App Key
 ```
